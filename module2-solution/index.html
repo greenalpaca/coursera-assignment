@@ -1,142 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Module 2</title>
-<style>
+	<meta charset="utf-8">
 
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-h1 {
-  margin-bottom: 15px;
-}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-p {
-  border: 1px solid black;
-  background-color: #A82736;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Times;
-  color: white;
-}
-
-#par1 {
-	background-color: white;
-	width: 100px;
-	height: 100px;
-	border: black;
-}
-
-#par2 {
-	background-color: red
-	width: 100px;
-	height: 100px;
-	border: black;
-}
-
-#par3 {
-	background-color: blue
-	width: 100px;
-	height: 100px;
-	border: black;
-}
-
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-lg-1 {width: 8.33%;}
-
-  .col-lg-2 {width: 16.66%;}
-
-  .col-lg-3 {width: 25%;}
-
-  .col-lg-4 {width: 33.33%;}
-
-  .col-lg-5 {width: 41.66%;}
-
-  .col-lg-6 {width: 50%;}
-
-  .col-lg-7 {width: 58.33%;}
-
-  .col-lg-8 {width: 66.66%;}
-
-  .col-lg-9 {width: 74.99%;}
-
-  .col-lg-10 {width: 83.33%;}
-
-  .col-lg-11 {width: 91.66%;}
-
-  .col-lg-12 {width: 100%;}
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-</style>
+	<link rel="stylesheet" type="text/css" href="css">
+	<title>Module 2 Solution</title>
 </head>
 <body>
-<h1>Responsive Layout</h1>
-
-<div class="row">
-  <div id=par1 class="col-lg-3 col-md-6"><p></p></div>
-  <div id=par2 class="col-lg-3 col-md-6"><p></p></div>
-  <div id=par3 class="col-lg-3 col-md-6>"><p></p></div>
-</div>
-
+	<h1>Our Menu</h1>
+	<div class="row">
+	<div class="container col-lg-4 col-md-6 col-sm-12">
+		<section>
+		<div id="tears">
+			Tears
+		</div>
+		<p>
+			Coming from a Psychology background I can claim that learning coding feels like trying to teach a monkey how to operate a bazooka. It's highly frustrating, there's lots of "how do I do this" moments, and from time to time "how did I miss that?" moments.
+		</p>
+		</section>
+	</div>
+	<div class="container col-lg-4 col-md-6 col-sm-12">
+		<section>
+		<div id="hope">
+			Hope
+		</div>
+		<p>
+			After spending more hours of what I am proud to admit trying to do this module, I understoodnow that HTML and CSS are not called languages just to make them sound fancy. But just like any langugae, the more you learn to understand it's complexity, the better you'll do eventually.
+		</p>
+		</section>
+	</div>
+	<div class="container col-lg-4 col-md-12 col-sm-12">
+		<section>
+		<div id="perseverance">
+			Perseverance
+		</div>
+		<p>
+			So next time you feel like hitting your head against the keyboard, just take a deep breath, wash your face, and when you come back start by making sure all your elements are stated correctly.
+		</p>
+		</section>
+	</div>
+	</div>
 </body>
 </html>
