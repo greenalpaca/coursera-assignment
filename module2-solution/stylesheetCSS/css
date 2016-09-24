@@ -33,7 +33,7 @@ section {
 	border:	1px solid black;
 	background-color: grey;
 	width: 100%;
-	height: 135px;
+	height: 150px;
 	font-family: Times;
 	color: black;
 	position: relative;
